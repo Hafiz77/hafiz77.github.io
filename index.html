@@ -34,8 +34,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = Math.abs(days) + "d  " + Math.abs(hours) < 10 ? "0"+Math.abs(hours)+"h ": Math.abs(hours)+ "h  "
-  + Math.abs(minutes) < 10 ? "0"+ Math.abs(minutes)+"m ": Math.abs(minutes)+ "m  " + Math.abs(seconds)<10 ? "0"+Math.abs(seconds)+"s " : Math.abs(seconds)+ "s ";
+  document.getElementById("demo").innerHTML = Math.abs(days) + "d  " + Math.abs(hours)+ "h  "
+  + Math.abs(minutes)+ "m  " +  Math.abs(seconds)+ "s ";
     
 }, 1000);
 </script>
